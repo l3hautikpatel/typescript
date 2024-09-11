@@ -19,8 +19,8 @@ console.log(getupper("bhautik"));
 
 // it is critical when we are working on the sign up like things or the validation things 
 
-function user(name : string , isPaid : boolean , email : string , id : number){
-
+function user(name : string , isPaid : boolean , email : string , id : number) : void {
+    // return -1 ; throught error 
 }
 
 
@@ -28,4 +28,48 @@ let loginuser = (name : string, email :string,isPaid :boolean = false)=>{};     
 
 
 
-export {} ; // this line will ignore the erroe typically to convert js file;
+
+function nameOFfunction(name : string) : string{
+
+    return name;
+}
+
+const nameofFunc1 = (s:string) : string{
+    return s ;
+}
+
+
+const heros = ["h1 " , 'h2' , 'h3'];
+
+heros.map(hero=>{
+    return `hero is ${hero}` ; 
+})
+
+
+
+
+
+
+function errormeassage(message : string) : never{
+    
+    throw new Error(message);
+}
+
+
+function retunrObject() : {} {   // define how we can show that this fuction returning the object in the fucntion
+
+    return {};
+}
+
+
+function book ():{name:string ,price : number}{
+
+    return {name : "book1" , price : 10}
+}
+
+
+
+
+
+
+// export {} ; // this line will ignore the erroe typically to convert js file;

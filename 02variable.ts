@@ -20,3 +20,16 @@ employeeId = 123123;
 console.log(greetings);
 console.log(userID);
 
+let age : number | string ;
+
+age = 10;   
+age = "10"; 
+
+
+let pi:3.14 = 3.14 ;
+// pi = 10;  // not allowed because of the type
+
+
+let gread : "A" | "B" | "C" | "D" = "A" ;
+gread = "D";
+// gread = "E"; // not allowed because of the type
